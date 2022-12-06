@@ -30,37 +30,43 @@ public class Order  {
     
     
     
-    private Long orderId;
+    private String orderId;
     
     
     
     
     
-    private Long customerId;
+    private String customerId;
     
     
     
     
     
-    private Long menuId;
+    private String menuId;
     
     
     
     
     
-    private Integer amount;
+    private Long amount;
     
     
     
     
     
-    private Integer quantity;
+    private Long quantity;
     
     
     
     
     
-    private Long storeId;
+    private String storeId;
+    
+    
+    
+    
+    
+    private String options;
 
     @PostPersist
     public void onPostPersist(){

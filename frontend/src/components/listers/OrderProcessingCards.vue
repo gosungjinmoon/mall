@@ -68,9 +68,9 @@
             me.values = temp.data._embedded.orderProcessings;
             
             me.newValue = {
-                'orderId': 0,
-                'menuId': 0,
-                'orderStatus': 0,
+                'orderId': '',
+                'menuId': '',
+                'orderStatus': '',
                 'options': '',
             }
         },

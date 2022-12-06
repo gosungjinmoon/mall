@@ -17,9 +17,9 @@
         </v-card-title >
 
         <v-card-text>
-            <Number label="OrderId" v-model="value.orderId" :editMode="editMode"/>
-            <Number label="DeliveryStatus" v-model="value.deliveryStatus" :editMode="editMode"/>
-            <Number label="DeliveryAddress" v-model="value.deliveryAddress" :editMode="editMode"/>
+            <String label="OrderId" v-model="value.orderId" :editMode="editMode"/>
+            <String label="DeliveryStatus" v-model="value.deliveryStatus" :editMode="editMode"/>
+            <String label="DeliveryAddress" v-model="value.deliveryAddress" :editMode="editMode"/>
         </v-card-text>
 
         <v-card-actions>

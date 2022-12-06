@@ -101,9 +101,9 @@
             this.values = temp.data._embedded.deliveries;
             
             this.newValue = {
-                'orderId': 0,
-                'deliveryStatus': 0,
-                'deliveryAddress': 0,
+                'orderId': '',
+                'deliveryStatus': '',
+                'deliveryAddress': '',
             }
         },
         methods: {

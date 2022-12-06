@@ -32,19 +32,19 @@ public class OrderProcessing  {
     
     
     
-    private Long orderId;
+    private String orderId;
     
     
     
     
     
-    private Long menuId;
+    private String menuId;
     
     
     
     
     
-    private Integer orderStatus;
+    private String orderStatus;
     
     
     

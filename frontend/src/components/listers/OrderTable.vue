@@ -73,6 +73,7 @@
                     { text: "amount", value: "amount" },
                     { text: "quantity", value: "quantity" },
                     { text: "storeId", value: "storeId" },
+                    { text: "options", value: "options" },
                 ],
             order : [],
             newValue: {},
@@ -90,12 +91,13 @@
             this.values = temp.data._embedded.orders;
 
             this.newValue = {
-                'orderId': 0,
-                'customerId': 0,
-                'menuId': 0,
+                'orderId': '',
+                'customerId': '',
+                'menuId': '',
                 'amount': 0,
                 'quantity': 0,
-                'storeId': 0,
+                'storeId': '',
+                'options': '',
             }
         },
         methods: {

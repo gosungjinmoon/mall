@@ -17,9 +17,6 @@ public class Delivery  {
 
 
     
-    @Id
-    @GeneratedValue(strategy=GenerationType.AUTO)
-    
     
     
     
@@ -30,19 +27,22 @@ public class Delivery  {
     
     
     
-    private Long orderId;
+    private String orderId;
     
     
     
     
     
-    private Integer deliveryStatus;
+    private String deliveryStatus;
+    
+    @Id
+    @GeneratedValue(strategy=GenerationType.AUTO)
     
     
     
     
     
-    private Integer deliveryAddress;
+    private String deliveryAddress;
 
     @PostPersist
     public void onPostPersist(){

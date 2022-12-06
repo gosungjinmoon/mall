@@ -17,10 +17,10 @@
         </v-card-title >
 
         <v-card-text>
-            <Number label="OrderId" v-model="value.orderId" :editMode="editMode"/>
+            <String label="OrderId" v-model="value.orderId" :editMode="editMode"/>
             <Number label="Amount" v-model="value.amount" :editMode="editMode"/>
-            <Number label="Status" v-model="value.status" :editMode="editMode"/>
-            <Number label="PaymentMeothod" v-model="value.paymentMeothod" :editMode="editMode"/>
+            <String label="Status" v-model="value.status" :editMode="editMode"/>
+            <String label="PaymentMeothod" v-model="value.paymentMeothod" :editMode="editMode"/>
         </v-card-text>
 
         <v-card-actions>

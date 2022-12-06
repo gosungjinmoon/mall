@@ -6,13 +6,13 @@
 
         <v-card-text>
             <div>
-                <Number label="OrderId" v-model="item.orderId" :editMode="editMode" @change="change" />
+                <String label="OrderId" v-model="item.orderId" :editMode="editMode" @change="change" />
             </div>
             <div>
-                <Number label="CustomerId" v-model="item.customerId" :editMode="editMode" @change="change" />
+                <String label="CustomerId" v-model="item.customerId" :editMode="editMode" @change="change" />
             </div>
             <div>
-                <Number label="MenuId" v-model="item.menuId" :editMode="editMode" @change="change" />
+                <String label="MenuId" v-model="item.menuId" :editMode="editMode" @change="change" />
             </div>
             <div>
                 <Number label="Amount" v-model="item.amount" :editMode="editMode" @change="change" />
@@ -21,7 +21,10 @@
                 <Number label="Quantity" v-model="item.quantity" :editMode="editMode" @change="change" />
             </div>
             <div>
-                <Number label="StoreId" v-model="item.storeId" :editMode="editMode" @change="change" />
+                <String label="StoreId" v-model="item.storeId" :editMode="editMode" @change="change" />
+            </div>
+            <div>
+                <String label="Options" v-model="item.options" :editMode="editMode" @change="change" />
             </div>
         </v-card-text>
 

@@ -103,10 +103,10 @@
             this.values = temp.data._embedded.paymenthistories;
             
             this.newValue = {
-                'orderId': 0,
+                'orderId': '',
                 'amount': 0,
-                'status': 0,
-                'paymentMeothod': 0,
+                'status': '',
+                'paymentMeothod': '',
             }
         },
         methods: {

@@ -17,12 +17,13 @@
         </v-card-title >
 
         <v-card-text>
-            <Number label="OrderId" v-model="value.orderId" :editMode="editMode"/>
-            <Number label="CustomerId" v-model="value.customerId" :editMode="editMode"/>
-            <Number label="MenuId" v-model="value.menuId" :editMode="editMode"/>
+            <String label="OrderId" v-model="value.orderId" :editMode="editMode"/>
+            <String label="CustomerId" v-model="value.customerId" :editMode="editMode"/>
+            <String label="MenuId" v-model="value.menuId" :editMode="editMode"/>
             <Number label="Amount" v-model="value.amount" :editMode="editMode"/>
             <Number label="Quantity" v-model="value.quantity" :editMode="editMode"/>
-            <Number label="StoreId" v-model="value.storeId" :editMode="editMode"/>
+            <String label="StoreId" v-model="value.storeId" :editMode="editMode"/>
+            <String label="Options" v-model="value.options" :editMode="editMode"/>
         </v-card-text>
 
         <v-card-actions>

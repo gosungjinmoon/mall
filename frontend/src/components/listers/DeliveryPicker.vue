@@ -73,13 +73,13 @@
                 var obj = {}
                 if(val != undefined) {
                     var arr = this.list[val]._links.self.href.split('/');
-                    obj['id'] = arr[4]; 
                     
                     
                     
                     
                     
                     
+                    obj['deliveryAddress'] = arr[4]; 
                     
                     this.$emit('selected', obj);
                 }

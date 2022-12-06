@@ -17,9 +17,9 @@
         </v-card-title >
 
         <v-card-text>
-            <Number label="OrderId" v-model="value.orderId" :editMode="editMode"/>
-            <Number label="MenuId" v-model="value.menuId" :editMode="editMode"/>
-            <Number label="OrderStatus" v-model="value.orderStatus" :editMode="editMode"/>
+            <String label="OrderId" v-model="value.orderId" :editMode="editMode"/>
+            <String label="MenuId" v-model="value.menuId" :editMode="editMode"/>
+            <String label="OrderStatus" v-model="value.orderStatus" :editMode="editMode"/>
             <String label="Options" v-model="value.options" :editMode="editMode"/>
         </v-card-text>
 

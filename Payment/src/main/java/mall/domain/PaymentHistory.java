@@ -30,25 +30,25 @@ public class PaymentHistory  {
     
     
     
-    private Long orderId;
+    private String orderId;
     
     
     
     
     
-    private Double amount;
+    private Long amount;
     
     
     
     
     
-    private Integer status;
+    private String status;
     
     
     
     
     
-    private Integer paymentMeothod;
+    private String paymentMeothod;
 
     @PostPersist
     public void onPostPersist(){
