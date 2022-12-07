@@ -69,7 +69,7 @@ public class OrderStatusViewHandler {
                  OrderStatus orderStatus = orderStatusOptional.get();
             // view 객체에 이벤트의 eventDirectValue 를 set 함
                 orderStatus.setId(Long.valueOf(cookStarted.getOrderId()));    
-                orderStatus.setCustomerId(String.valueOf(cookStarted.getId()));    
+                orderStatus.setCustomerId("요리시작");    
                 // view 레파지 토리에 save
                  orderStatusRepository.save(orderStatus);
                 }
